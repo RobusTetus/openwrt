@@ -1,0 +1,13 @@
+Index: linux-6.18.52/drivers/net/usb/qmi_wwan.c
+===================================================================
+--- linux-6.18.52.orig/drivers/net/usb/qmi_wwan.c
++++ linux-6.18.52/drivers/net/usb/qmi_wwan.c
+@@ -1094,6 +1094,8 @@ static const struct usb_device_id produc
+ 	{QMI_MATCH_FF_FF_FF(0x2c7c, 0x0620)},	/* Quectel EM160R-GL */
+ 	{QMI_MATCH_FF_FF_FF(0x2c7c, 0x0800)},	/* Quectel RM500Q-GL */
+ 	{QMI_MATCH_FF_FF_FF(0x2c7c, 0x0801)},	/* Quectel RM520N */
++	{QMI_MATCH_FF_FF_FF(0x2c7c, 0x030b)},	/* Quectel EM060K-GL EM120K-GL */
++	{QMI_MATCH_FF_FF_FF(0x2c7c, 0x030e)},	/* Quectel EM05-G */
+ 	{QMI_MATCH_FF_FF_FF(0x05c6, 0xf601)},	/* MeigLink SLM750 */
+ 
+ 	/* 3. Combined interface devices matching on interface number */
